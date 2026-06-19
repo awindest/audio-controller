@@ -239,7 +239,7 @@ graph TD
 
 The audio controller code helped move my Space Invaders project forward and presented me with more elegant code than I was generating. For example, my mute button calls one function and either turns the volume off or on globally. For a given audio file, I just play it based upon the game state, no more `if (okToPlaySound === true)` statements as the volume is either on or off globally. I just play the audio file and if the volume (or gain in `Howler.js`) is on then you hear the sound, if not then silence. So simple in hindsight. 
 
-What is so exciting is that these models are evolving so fast (see this (website[https://llm-timeline-two.vercel.app/])) that soon we will have a local, powerful model to generate code and embrace privacy and lower costs.
+What is so exciting is that these models are evolving so fast (see this (website)[https://llm-timeline-two.vercel.app/]) that soon we will have a local, powerful model to generate code and embrace privacy and lower costs.
 
 Thanks, Opus!
 
