@@ -157,6 +157,8 @@ The app is a standalone SvelteKit project at `\~/Documents/Projects/audio-contro
 The UI features a dark space-themed design with a starfield background, glassmorphism cards, category-colored neon accents (purple for Music, amber for Game State, cyan for Player, red for Enemies, green for Special, indigo for UI), and micro-animations throughout. Check the walkthrough for the full file breakdown.
 
 ```
+
+```
 Tasks
  Scaffold SvelteKit project at \~/Documents/Projects/audio-controller
  Copy audio files from source project
@@ -169,7 +171,6 @@ Tasks
  Create root layout (+layout.svelte)
  Create main page (+page.svelte)
  Verify — run dev server and test
-```
 ```
 # Walkthrough — Space Invaders Audio Controller
 
