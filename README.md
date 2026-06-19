@@ -2,11 +2,11 @@
 
 ## TL;DR
 
-Used Opus 4.7 for free to create this (website)[]
+Used Opus 4.7 for free to create this [website](https://audio-controller-green.vercel.app/)
 
 ### Screenshot:
 
-
+![alt Audio Controller website screenshot](images/audio-controller-screenshot.webp)
 
 ## Introduction
 
@@ -36,14 +36,13 @@ Here is the prompt:
 
 `Can you create a sveltekit project that uses the audio files in the folder <username path>/static/audio to show how you would control the audio given the various game states as described by the title of each audio file and produce a user interface with buttons to play each audio file as well as have a mute button to mute/unmute globally.`
 
-And the output is this repository that contains this Readme.
-
-
+And the output is this repository.
 
 ## Project output
 
 ```
 Worked for 50s
+```
 ```
 Good, I can see the audio files and the existing SvelteKit project structure. Let me examine the existing project config to understand the setup, then create a new SvelteKit project for this audio controller.
 ```
@@ -82,18 +81,23 @@ Edited task.md
 Ran command: `npx -y sv create --help`
 Ran command: `npx -y sv create audio-controller --template minimal --types ts --no-add-ons --install npm`
 ```
+
 ```
 The project is scaffolding in the background. While it installs, let me start creating the source files.
 ```
+
 ```
 Ran command: `mkdir -p \~/Documents/Projects/audio-controller/static/audio && cp \~/Documents/Projects/chris-space-invaders/static/audio/* \~/Documents/Projects/audio-controller/static/audio/`
 ```
+
 ```
 Project scaffolded and audio files copied. Now let me install howler and create all the source files. I'll use subagents to parallelize the work.
 ```
+
 ```
 Ran command: `cd \~/Documents/Projects/audio-controller && npm install howler && npm install --save-dev @types/howler`
 ```
+
 ```
 Now let me update the task list and create all the source files. I'll create them in parallel where possible.
 ```
