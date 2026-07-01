@@ -1,5 +1,7 @@
 <script lang="ts">
-  import '../app.css';
+  import "../app.css";
+  import favicon from "$lib/assets/invader-green-black-eyes.png";
+
   let { children } = $props();
 </script>
 
@@ -9,6 +11,7 @@
   <meta name="theme-color" content="#05060f" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link rel="icon" href={favicon} />
 </svelte:head>
 
 <div class="app-shell">

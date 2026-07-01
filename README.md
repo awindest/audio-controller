@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-Used Opus 4.7 for free to create this [website](https://audio-controller-green.vercel.app/)
+Used Opus 4.6 for free to create this [website](https://audio-controller-green.vercel.app/)
 
 ### Screenshot:
 
